@@ -17,9 +17,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Tekst1 = (TextView) findViewById(R.id.textView);
-        Tekst1.setText("ZSE mym nalogiem");
-        Tekst1.setTextColor(Color.BLACK);
 
         Przycisk1 = (Button) findViewById(R.id.scena1);
         Przycisk2 = (Button) findViewById(R.id.scena2);
